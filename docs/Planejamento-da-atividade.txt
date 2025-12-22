@@ -11,3 +11,8 @@ Planejamento da atividade
 	[x] rodar composer dumpautoload
 
 
+[] Conexao ao BD MySQL
+	[] instalar o phinx
+	[] criar config/db.php
+	[] criar as pastas migrations e seeds
+	[] criar bando de dados semeq [echo create database datatable_name | mysql -u root -p]
