@@ -1,0 +1,19 @@
+{
+    "name": "coelho/semeq",
+    "description": "Projeto demonstrativo desenvolvido para processo seletivo",
+    "autoload": {
+        "psr-4": {
+            "Semeq\\": "src/"
+        }
+    },
+	"type": "no",
+    "authors": [
+        {
+            "name": "Osmair Coelho",
+            "email": "osmair.coelho@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+	 "require-dev": {}
+}

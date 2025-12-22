@@ -7,4 +7,7 @@ Planejamento da atividade
 
 [x] instalar git
 
-[] iniciar o composer init
+[x] iniciar o composer init
+	[x] rodar composer dumpautoload
+
+
