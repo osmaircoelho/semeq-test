@@ -1,0 +1,10 @@
+Data: 22/12/2024
+Autor: osmair.coelho@gmail.com	
+
+Sistema de gerenciamento de vendas [SEMEQ]
+
+Planejamento da atividade
+
+[x] instalar git
+
+[] iniciar o composer init
