@@ -31,7 +31,9 @@ Planejamento da atividade
  [x] Seeder de Clientes
  [x] Seeder de Fornecedores
  [x] Seeder de Produtos
- [x] Seeder de Vínculo Produto-Fornecedor  
+ [x] Seeder de Vínculo Produto-Fornecedor
+ [x] criar arquivo para migrations 
  
+[x] instalar o pimp
+[x] instalar aura/router
 
- 
