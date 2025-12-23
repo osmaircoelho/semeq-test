@@ -25,6 +25,7 @@ $app->plugin(new DbPlugin());
 $app->plugin(new AuthPlugin());
 
 require_once __DIR__ .'/../src/controllers/vendas.php';
+require_once __DIR__ .'/../src/controllers/produtos.php';
 require_once __DIR__ .'/../src/controllers/users.php';
 require_once __DIR__ .'/../src/controllers/auth.php';
 
