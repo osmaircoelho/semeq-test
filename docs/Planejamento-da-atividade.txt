@@ -19,16 +19,19 @@ Planejamento da atividade
 	[x] instalar vlucas/phpdotenv
 	[x] criar arquivo .env
 
-[] criar as migrations
+[x] criar as migrations
  [x] Tabela Clientes
  [x] Tabela Fornecedores
  [x] Tabela Produtos
  [x] Tabela Pivô Produto_Fornecedores
  [x] Tabela Vendas
  [x] Tabela Itens da Venda
-[] criar os seeders
- [] Seeder de Clientes
- [] Seeder de Fornecedores
- [] Seeder de Produtos
- [] Seeder de Vínculo Produto-Fornecedor
- []  
+ 
+[x] criar os seeders
+ [x] Seeder de Clientes
+ [x] Seeder de Fornecedores
+ [x] Seeder de Produtos
+ [x] Seeder de Vínculo Produto-Fornecedor  
+ 
+
+ 
