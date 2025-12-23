@@ -42,7 +42,7 @@ class RoutePlugin implements PluginInterface
     }
     protected function getRequest(): RequestInterface
     {
-        return \Laminas\Diactoros\ServerRequestFactory::fromGlobals(
+        return ServerRequestFactory::fromGlobals(
             $_SERVER, $_GET, $_POST, $_COOKIE, $_FILES
         );
     }

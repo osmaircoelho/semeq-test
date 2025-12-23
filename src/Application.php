@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 namespace Semeq;
 
@@ -6,8 +7,8 @@ use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Semeq\Plugins\PluginInterface;
-use Laminas\Diactoros\Response\RedirectResponse;
-use Laminas\HttpHandlerRunner\Emitter\SapiEmitter;
+use Zend\Diactoros\Response\RedirectResponse;
+use Zend\Diactoros\Response\SapiEmitter;
 
 class Application
 {
@@ -28,7 +29,7 @@ class Application
     {
         return $this->serviceContainer->get($name);
     }
-    public function addService(string $name, $service):void
+    public function addService(String $name, $service):void
     {
         if(is_callable($service)) {
             $this->serviceContainer->addLazy($name, $service);
@@ -117,7 +118,7 @@ class Application
     }
     protected function emitResponse(ResponseInterface $response): void
     {
-        $emitter = new SapiEmitter(); // Sapi - Server API - Server Application Programming Interface
+        $emitter = new SapiEmitter(); // Sapi - Server API - Server Application Program interface
         $emitter->emit($response);
     }
 }

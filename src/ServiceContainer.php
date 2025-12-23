@@ -1,5 +1,4 @@
 <?php
-/*psr11 usa */
 
 namespace Semeq;
 

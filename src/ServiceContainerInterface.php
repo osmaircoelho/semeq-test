@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 namespace Semeq;
 
 /* Imagina um container de servicos, grande onde tem varios servicos dentro dele
