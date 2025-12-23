@@ -11,8 +11,24 @@ Planejamento da atividade
 	[x] rodar composer dumpautoload
 
 
-[] Conexao ao BD MySQL
-	[] instalar o phinx
-	[] criar config/db.php
-	[] criar as pastas migrations e seeds
-	[] criar bando de dados semeq [echo create database datatable_name | mysql -u root -p]
+[x] Conexao ao BD MySQL
+	[x] instalar o phinx
+	[x] criar config/db.php
+	[x] criar as pastas migrations e seeds
+	[x] criar bando de dados semeq [echo create database datatable_name | mysql -u root -p]
+	[x] instalar vlucas/phpdotenv
+	[x] criar arquivo .env
+
+[] criar as migrations
+ [x] Tabela Clientes
+ [x] Tabela Fornecedores
+ [x] Tabela Produtos
+ [x] Tabela Pivô Produto_Fornecedores
+ [x] Tabela Vendas
+ [x] Tabela Itens da Venda
+[] criar os seeders
+ [] Seeder de Clientes
+ [] Seeder de Fornecedores
+ [] Seeder de Produtos
+ [] Seeder de Vínculo Produto-Fornecedor
+ []  
