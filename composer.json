@@ -29,5 +29,10 @@
         "allow-plugins": {
             "kylekatarnls/update-helper": false
         }
+    },
+
+    "require-dev": {
+        "fzaninotto/faker": "1.6.0",
+        "squizlabs/php_codesniffer": "*"
     }
 }

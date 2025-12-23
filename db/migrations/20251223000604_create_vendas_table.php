@@ -10,7 +10,7 @@ final class CreateVendasTable extends AbstractMigration
     public function change(): void
     {
         $table = $this->table('vendas');
-        $table->addColumn('cliente_id', 'integer', ['signed' => false])
+        $table->addColumn('cliente_id', 'integer')
               ->addColumn('data_venda', 'datetime')
               ->addColumn('cep', 'string', ['limit' => 10])
               ->addColumn('logradouro', 'string', ['limit' => 150])

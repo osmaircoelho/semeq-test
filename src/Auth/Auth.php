@@ -41,7 +41,7 @@ class Auth implements AuthInterface
 
     public function user(): ?UserInterface
     {
-        return $this->jasnyAuth->user();
+        return $this->jasnyAuth->user() ?: null; //TODO pode dar erro nesta linha
     }
 
     public function hashPassword(string $password): string

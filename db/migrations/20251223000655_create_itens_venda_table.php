@@ -10,8 +10,8 @@ final class CreateItensVendaTable extends AbstractMigration
     public function change(): void
     {
         $table = $this->table('itens_venda');
-        $table->addColumn('venda_id', 'integer', ['signed' => false])
-              ->addColumn('produto_id', 'integer', ['signed' => false])
+        $table->addColumn('venda_id', 'integer')
+              ->addColumn('produto_id', 'integer')
               ->addColumn('quantidade', 'integer')
               ->addColumn('valor_unitario', 'decimal', ['precision' => 10, 'scale' => 2])
               ->addColumn('subtotal', 'decimal', ['precision' => 10, 'scale' => 2])
