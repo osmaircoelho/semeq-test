@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace SONFin\Auth;
+namespace Semeq\Auth;
 
 
 use Jasny\Auth\Sessions;
 use Jasny\Auth\User;
-use SONFin\Repository\RepositoryInterface;
+use Semeq\Repository\RepositoryInterface;
 
 class JasnyAuth extends \Jasny\Auth
 {

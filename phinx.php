@@ -1,9 +1,9 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-if (file_exists(__DIR__ . '/.env')) {
-    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-    $dotenv->load();
+if(file_exists(__DIR__ .'/.env')) {
+    $dotenv = new \Dotenv\Dotenv(__DIR__);
+    $dotenv->overload();
 }
 
 $db = include __DIR__ . '/config/db.php';
